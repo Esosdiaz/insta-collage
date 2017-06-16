@@ -9,6 +9,10 @@
 	background-size: cover;
 	background-position: center center;
 }
-.fotosA{
-	display: inline-block;
+.marco-foto{
+	width: 30%;
+	height: 30%;
+	background: transparent;
+	border-width: 3px;
+	border-color: white;
 }
