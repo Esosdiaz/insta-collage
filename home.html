@@ -15,43 +15,59 @@
 	<link rel="stylesheet" type="text/css" href="assets/css/media-home.css">
 </head>
 <body id="collage">
-	<div class="container"><!--Container de todo-->
+	<section class="container recibe"><!--Container de todo-->
 		<div class="row">
-			<div class="col-xs-6 col-sm-6"> <!--Primer fila del collage-->
-				<div class="marco-foto" ondragover="permitirDrop(event)" ondrop="drop(event)"></div>
-        		<div class="marco-foto" ondragover="permitirDrop(event)" ondrop="drop(event)"></div>
+			<div class="col-xs-6 col-sm-6 marco-foto"> <!--Primer fila del collage-->
+				<div ondragover="permitirDrop(event)" ondrop="drop(event)"></div>
+			</div>
+			<div class="col-xs-6 col-sm-6 marco-foto">
+        		<div ondragover="permitirDrop(event)" ondrop="drop(event)"></div>
         	</div>
         </div>
        	<div class="row">
-       		<div class="col-xs-6 col-sm-6"> <!--Segunda fila del collage-->
-        		<div class="marco-foto" ondragover="permitirDrop(event)" ondrop="drop(event)"></div>
-        		<div class="marco-foto" ondragover="permitirDrop(event)" ondrop="drop(event)"></div>
+       		<div class="col-xs-6 col-sm-6 marco-foto"> <!--Segunda fila del collage-->
+        		<div ondragover="permitirDrop(event)" ondrop="drop(event)"></div>
+        	</div>
+        	<div class="col-xs-6 col-sm-6 marco-foto">	
+        		<div ondragover="permitirDrop(event)" ondrop="drop(event)"></div>
         	</div>
 		</div>
+	</section>
+	<section class="container phototext">
 		<div class="row"> <!--Fila gris con icono-->
-			<div class="col-xs-12 col-sm-12">
+			<div class="col-xs-12 col-sm-12 separador text-center">
 				<p><i class="fa fa-instagram" aria-hidden="true"></i>PHOTO BOOTH</p>
 			</div>
 		</div>
+	</section>
+	<section class="container arrastrables">
 		<div class="row">
-			<div class="col-sm-4 col-xs-4 text-center fotosA"> <!--primera línea de fotos-->
+			<div class="col-sm-4 col-xs-4 text-center fotos"> <!--primera línea de fotos-->
 				<img id="foto1" class="ph-1 img-responsive" draggable="true" ondragstart="drag(event)" src="assets/img/insta1">
+			</div>
+			<div class="col-sm-4 col-xs-4 text-center fotos">
 				<img id="foto2" class="ph-2 img-responsive" draggable="true" ondragstart="drag(event)" src="assets/img/insta2">
+			</div>
+			<div class="col-sm-4 col-xs-4 text-center fotos">
 				<img id="foto3" class="ph-3 img-responsive" draggable="true" ondragstart="drag(event)" src="assets/img/insta3">
 			</div>
 		</div>
 		<div class="row">
-			<div class="col-sm-4 col-xs-4 text-center fotosB"> <!--segunda línea de fotos-->
+			<div class="col-sm-4 col-xs-4 text-center fotos"> <!--segunda línea de fotos-->
 				<img id="foto4" class="ph-4 img-responsive" draggable="true" ondragstart="drag(event)" src="assets/img/insta4">
+			</div>
+			<div class="col-sm-4 col-xs-4 text-center fotos">
 				<img id="foto5" class="ph-5 img-responsive" draggable="true" ondragstart="drag(event)" src="assets/img/insta5">
+			</div>
+			<div class="col-sm-4 col-xs-4 text-center fotos">
 				<img id="foto6" class="ph-6 img-responsive" draggable="true" ondragstart="drag(event)" src="assets/img/insta6">
 			</div>
 		</div>
-	</div>
+	</section>
 <footer>
 	<div class="container">
 		<div class="row">
-			<div class="col-xs-12">
+			<div class="col-xs-12 text-center">
 				<small>Desarrollado por Fa Díaz</small>
 			</div>
 		</div>

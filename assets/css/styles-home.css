@@ -2,6 +2,9 @@
 	padding: 0;
 	margin: 0;
 }
+body{
+	width: 100%;
+}
 #collage{
 	background-image: url(../img/gradiente-fondo.png);
 	background-repeat: no-repeat;
@@ -10,9 +13,18 @@
 	background-position: center center;
 }
 .marco-foto{
-	width: 30%;
-	height: 30%;
-	background: transparent;
-	border-width: 3px;
-	border-color: white;
+	background-color: grey;
+    width: 187px;
+    height: 187px;
+	border: 5px solid white;
+}
+.separador{
+	width: 100%;
+	background-color: #26272b;
+	color: #517ea0;
+	font-weight: bold;
+}
+.fotos img{
+	border: 5px solid white;
+	margin-top: 15px;
 }
